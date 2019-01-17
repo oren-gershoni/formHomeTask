@@ -1,0 +1,24 @@
+app-form-page {
+
+
+  .mat-form-field {
+    flex: 1;
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .no-title-margin {
+    .mat-card-header-text {
+      margin: 0 !important;
+    }
+  }
+
+  .row
+  {
+    margin-bottom: 15px;
+  }
+
+}
