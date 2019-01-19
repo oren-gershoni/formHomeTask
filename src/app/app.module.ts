@@ -13,14 +13,12 @@ import {
   MatDialogModule
 } from '@angular/material';
 import { FormCompleteDialogComponent } from './form-complete-dialog/form-complete-dialog.component';
-import { FormNameValidationComponent } from './form-name-validation/form-name-validation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormPageComponent,
-    FormCompleteDialogComponent,
-    FormNameValidationComponent
+    FormCompleteDialogComponent
   ],
   imports: [
     BrowserModule,
